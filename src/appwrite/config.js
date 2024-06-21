@@ -1,6 +1,9 @@
 import conf from "../conf/conf";
 import { Client, Storage , Databases, Query , ID } from "appwrite";
 
+// TODO : read the appwrite documentation to understand the appwrite sdk
+
+
 export class service{
     Client = new Client();
     Storage;
