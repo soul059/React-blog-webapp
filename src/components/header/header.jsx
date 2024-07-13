@@ -33,7 +33,7 @@ function Header() {
 
 
   return (
-    <header className='p-4 dark:bg-indigo-400 dark:text-gray-800'>
+    <header className='p-4 dark:bg-indigo-400 dark:text-gray-800  sticky top-0 z-10'>
       <Container>
         <nav className='flex'>
           <div className='mr-4'>
