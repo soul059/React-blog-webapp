@@ -1,8 +1,9 @@
 import React from 'react'
+import logo from "../../public/logo.svg"
 
 function Logo({width = '100px'}) {
   return (
-    <div>Logo</div>
+    <img src={logo} alt="Logo" width={width} />
   )
 }
 
